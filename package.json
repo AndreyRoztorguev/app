@@ -5,5 +5,22 @@
   "main": "index.js",
   "repository": "https://github.com/vergil777/app.git",
   "author": "Andrey Roztorguev <andrew.roztor99@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.3",
+    "@babel/core": "^7.8.3",
+    "@babel/node": "^7.8.3",
+    "@babel/preset-env": "^7.8.3",
+    "cross-env": "^6.0.3",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.2"
+  }
 }
